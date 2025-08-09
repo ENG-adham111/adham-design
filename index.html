@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>متجر تصاميم - عرض وطلب عبر واتساب</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <center>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">متجر التصاميم</h1>
+      <nav class="nav">
+        <button id="themeToggle" class="btn small">وضع داكن</button>
+      </nav>
+    </div>
+  </header>
+</center>
+  <main class="container main">
+    <section class="hero">
+      <h2>تصاميم احترافية جاهزة للطلب</h2>
+      <p>اختر التصميم، اضبط الخيارات، واضغط "اطلب الآن" لإرسال الطلب على واتساب.</p>
+    </section>
+
+    <section class="gallery">
+      <div class="card" data-title="تصميم بانر موبايلات" data-price="120">
+        <img src="img/coffee.png" alt="تصميم قهوة" width="300" height="200">
+
+        <h3>تصميم بانر موبايلات</h3>
+        <p class="price">سعر: 120 ج.م</p>
+        <div class="controls">
+          <label>الكمية <input type="number" class="qty" min="1" value="1"></label>
+          <button class="btn order">اطلب الآن</button>
+        </div>
+      </div>
+
+      <div class="card" data-title="لوجو كلاسيكي" data-price="200">
+        <img src="img/pizza.png" alt="لوجو كلاسيكي">
+        <h3>لوجو كلاسيكي</h3>
+        <p class="price">سعر: 200 ج.م</p>
+        <div class="controls">
+          <label>الكمية <input type="number" class="qty" min="1" value="1"></label>
+          <button class="btn order">اطلب الآن</button>
+        </div>
+      </div>
+
+      <div class="card" data-title="بوستر عروض" data-price="90">
+         <img src="img/tech.png" alt="بوستر عروض">
+        <p class="price">سعر: 90 ج.م</p>
+        <div class="controls">
+          <label>الكمية <input type="number" class="qty" min="1" value="1"></label>
+          <button class="btn order">اطلب الآن</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h3>تفاصيل إضافية للطلب</h3>
+      <p>يمكنك كتابة اسمك وملاحظات إضافية قبل الإرسال.</p>
+      <label>اسم المشتري <input type="text" id="buyerName" placeholder="اسمك"></label>
+      <label>ملاحظات <input type="text" id="notes" placeholder="مثال: اللون المفضل أو النص المطلوب"></label>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© كل الحقوق محفوظة - متجر التصاميم</p>
+      <p>للطلب المباشر: <a href="https://wa.me/201091569465">01091569465</a></p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
